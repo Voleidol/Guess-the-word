@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(198, 248, 255);
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+
+.guess-word p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.guess-word input {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(94, 7, 255);
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.invis {
+    display: none;
+    font-size: 25px;
+}
+.hidden {
+    font-size: 30px;
+    min-width: 150px;
+    max-width: 400px;
+    min-height: 70px;
+    margin: 0 auto;
+    border: 5px solid rgb(241, 156, 45);
+    border-radius: 20px;
+    background-color:rgb(226, 195, 255);
+    text-align: center;
+}
